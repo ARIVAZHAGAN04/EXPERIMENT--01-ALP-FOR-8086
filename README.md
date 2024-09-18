@@ -27,7 +27,8 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 
 
 7.	After running the program, another menu screen will be displayed, where you have the option to “View” symbol table,
-8. ![image](https://github.com/user-attachments/assets/7682ec69-4bf3-4466-b02a-abe2345ed580)
+8.
+   ![image](https://github.com/user-attachments/assets/7682ec69-4bf3-4466-b02a-abe2345ed580)
 
    
     
@@ -46,7 +47,8 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 
 
 
-9.	Click on emulate to start emulation 
+10.	Click on emulate to start emulation 
+ 
  ![image](https://github.com/user-attachments/assets/9ce62c8a-e236-4628-b0e2-1dd1fddd5658)
 
 
@@ -64,7 +66,8 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 
 
 10.	If no errors are found click on run the program and check the status of various flags in the flags tab as shown below
-    ![image](https://github.com/user-attachments/assets/1306c706-def6-44c6-8993-1dd3575def26)
+
+   	 ![image](https://github.com/user-attachments/assets/1306c706-def6-44c6-8993-1dd3575def26)
 
 
 
