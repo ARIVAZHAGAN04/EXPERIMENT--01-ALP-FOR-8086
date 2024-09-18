@@ -1,7 +1,7 @@
 # EXPERIMENT--01-ALP-FOR-8086
-Name :
-Roll no 
-Date of experiment :
+Name : ARIVAZHAGAN G R
+Roll no : 212223040020
+Date of experiment : 20.08.24
 
 
 
@@ -27,7 +27,12 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 
 
 7.	After running the program, another menu screen will be displayed, where you have the option to “View” symbol table,
-8.	 
+8. ![image](https://github.com/user-attachments/assets/7682ec69-4bf3-4466-b02a-abe2345ed580)
+
+   
+    
+
+
 
 
 ![image](https://user-images.githubusercontent.com/36288975/189273263-d65baae9-4b8f-4723-afb3-c0ffa4052b04.png)
@@ -43,7 +48,7 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 
 
 9.	Click on emulate to start emulation 
-
+ ![image](https://github.com/user-attachments/assets/9ce62c8a-e236-4628-b0e2-1dd1fddd5658)
 
 
 
@@ -60,7 +65,8 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 
 
 
-10.	If no errors are found click on run the program and check the status of various flags in the flags tab as shown below 
+10.	If no errors are found click on run the program and check the status of various flags in the flags tab as shown below
+    ![image](https://github.com/user-attachments/assets/1306c706-def6-44c6-8993-1dd3575def26)
 
 
 
@@ -78,24 +84,72 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 ## Programs for arithmetic  operations
 
 ## Addition  of 8 bit ALP 
+org 100h  
+
+mov al, 25h    
+mov bl, 13h    
+add al, bl     
+mov [2375h], al
+
+ret            
 
 
 
 ## Output  
- 
+ ![image](https://github.com/user-attachments/assets/82acb06e-e26e-4f53-8f3a-054038a9435f)
+
 ## Subtraction   of 8 bit numbers  ALP 
+org 100h
+
+mov al, 25h    
+mov bl, 13h    
+sub al, bl     
+mov [0009h], al 
+
+ret
  
 ## Output  
+![image](https://github.com/user-attachments/assets/7223f2f3-5ef5-4534-8a29-ec93f52c1269)
+
 ## Multiplication alp 
+org 100h
+
+mov ax, 4101h  
+mov [6000h], ax
+mov bx, 2218h  
+mov ax, [6000h]
+mul bx         
+
+mov [5008h], ax
+
+
+ret
  ## Output  
+ ![image](https://github.com/user-attachments/assets/4101a57c-2909-40cf-a432-b4ac98bb952c)
+
 
 
 ## Division alp 
+org 100h            
 
-## Output  
+mov ax, 0b161h      
+mov dx, 0           
+
+mov [2000h], 0a415h 
+mov bx, [2000h]     
+div bx              
+
+mov [1121h], ax     
+
+ret                 
+
+## Output 
+![image](https://github.com/user-attachments/assets/b93e6a82-6a27-4d6d-bfbb-c8343aa4e52e)
+
 
 
 ## Result :
+Thus, Assembly Language Program for fundamental arithmetic and logical operations are exected succesfully.
  
 
 
